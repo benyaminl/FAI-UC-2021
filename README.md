@@ -15,6 +15,11 @@ Thank you for start bootstrap for supporting many freelancer since 2015!
 
 The icon is provided by BS5 Icon, see https://icons.getbootstrap.com/
 
+### Laravel Pagination
+As default since 8.0, Laravel using and promoting tailwind CSS, I'm not against it, just it's too much hazzle 
+
+For more see https://laravel.com/docs/8.x/pagination#using-bootstrap
+
 ### Footnote
 
 HasCompositePrimaryTrait taken from https://github.com/laravel/framework/issues/5355#issuecomment-161376267
