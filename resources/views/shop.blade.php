@@ -13,14 +13,17 @@
             <div class="card-body p-4">
                 <div class="text-center">
                     <!-- Product name-->
-                    <h5 class="fw-bolder">Fancy Product {{ $i }}</h5>
+                    <a href="{{ url('shop/product/'.$i) }}" class="link-dark"><h5 class="fw-bolder">Fancy Product {{ $i }}</h5></a>
                     <!-- Product price-->
                     ${{ rand(40,80) }}.00
                 </div>
             </div>
             <!-- Product actions-->
             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to Cart</a></div>
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">
+                    <i class="bi-cart-plus-fill"></i>
+                    Add to Cart
+                </a></div>
             </div>
         </div>
     </div>

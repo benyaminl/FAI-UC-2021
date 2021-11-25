@@ -15,7 +15,7 @@
     <input type="password" class="form-control" name="pass">
     <br/>
     <label>Verify Password</label>
-    <input type="password_verify" class="form-control" name="pass">
+    <input type="password" class="form-control" name="pass_verify">
     <br/>
     <label>Address</label>
     <input type="text" class="form-control" name="address">

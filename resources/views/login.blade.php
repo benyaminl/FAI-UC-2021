@@ -11,5 +11,7 @@
     <input type="password" class="form-control" name="user">
     <br/>
     <button class="btn btn-secondary">Login</button>
+    <br><br>
+    <a href="{{ url('/register') }}" class="link-dark">Register New Account</a>
 </form>
 @endsection
